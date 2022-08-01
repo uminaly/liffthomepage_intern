@@ -1,1 +1,0 @@
-# uminaly.github.io
