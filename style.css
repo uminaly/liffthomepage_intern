@@ -1,0 +1,558 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+HTML5 Doctor CSS
+
+
+
+/*cord start*/
+*{
+    font-family: 游ゴシック;
+}
+
+header{
+    background-color: rgb(254, 254, 255);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.header-container{
+    height: auto;
+}
+
+.header-one{
+    height: 65px;
+}
+
+.header-logo{
+    font-family:Arial;
+    font-size: 40px;
+    padding: 15px 30px;
+    float: left;
+    letter-spacing: 5px;
+    cursor: default;
+}
+
+.header-logo:hover{
+    color: rgb(216, 54, 95);
+    transition: all 0.5s;
+}
+
+.header-menu li{
+    float: left;
+    margin: 26px 20px 0 20px;
+    cursor: default;
+}
+
+.header-menu li:hover{
+    color: rgb(195, 80, 109);
+    transition: all 0.5s;
+}
+
+.header-menu img{
+    width:20px;
+    float: left;
+    margin-right: 5px;
+}
+
+.header-menu p{
+    font-size: 15px;
+    font-family: 游明朝;
+    float: left;
+    padding-top: 5px;
+}
+
+.header-right{
+    float: right;
+    transition: all 0.5s;    
+}
+
+.header-right a{
+    color:black;
+    cursor: default;
+
+}
+
+.header-right a:hover{
+    color: rgb(196, 83, 112);
+    transition: all 0.3s;
+    background-color: rgb(248, 238, 241);
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    display: block;
+    float: right;
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+.ad{
+    background-color: rgb(236, 237, 237);
+}
+
+.date{
+    margin-bottom: 5px;
+}
+
+.ad p{
+    text-align: center;
+    padding: 12px 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: default;
+}
+
+.ad span{
+    color:rgb(170, 170, 170);
+    margin-left: 3px;
+}
+
+/*main*/
+.container{
+    width: 1170px;
+    padding:0 15px;
+    margin:0 auto;
+}
+
+.top-wrapper{
+    height: 653px;
+    background-color: rgb(241, 241, 241);
+}
+
+.info{
+    float: left;
+    margin-top: 103px;
+}
+
+.info img{
+    height: 550px;
+    position: relative;
+}
+
+.text{
+    margin: 350px 100px 70px 700px;
+    float: right;
+    padding: 0%;
+    position: absolute;
+    top:120px;
+    left: 100px;
+}
+
+.info h1{
+    font-size:50px;
+    font-family: 游明朝;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.info p{
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 游明朝;
+}
+
+
+/*news*/
+.news-wrapper{
+    height: 100px;
+    background-color: rgb(87, 87, 87);
+    color: rgb(241, 241, 241);
+}
+
+.news-title{
+    float:left;
+    margin-left:120px;
+    margin-top: 27px;
+}
+
+.news-title h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.news-contents{
+    width: 70%;
+    float: left;
+}
+
+.newstext{
+    float: right;
+    margin:27px 150px 0 0;
+}
+
+.newstext p{
+    font-size: 18px;
+    font-family: 游ゴシック;
+}
+
+.news-btn{
+    float: right;
+    width: 30%;
+    padding-top: 22px;
+}
+
+.btn {
+    padding: 15px 40px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    opacity: 0.8;
+    background-color: rgb(241, 241, 241);
+    font-size: 20px;
+    font-family: 游明朝;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+    transition:  0.3s;
+  }
+
+/*lineup-wrapper*/
+.lineup-wrapper{
+    height: 500px;
+    background-color: rgb(253, 253, 254);
+    padding:70px 0 30px 0;
+    text-align:center;
+}
+
+.container-title h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 游明朝;
+}
+
+.items{
+    width: 1050px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.item{
+    float: left;
+    position: relative;
+}
+
+.item h2{
+    font-family:游明朝;
+    font-size: 30px;
+    color: white;
+}
+
+.item img{
+    height: 250px;
+    display: inline-block;
+}
+
+.item img:hover{
+    filter:saturate(200%);
+    transition: all 0.3s;
+}
+
+.item-texts{
+    position: absolute;
+    top: 100px;
+    left:10px;
+    z-index: 5;
+    color:rgb(255, 255, 255);
+    background-color: rgb(94, 94, 94,0.2);
+    cursor: default;
+}
+
+.gift{
+    left: 30px;
+}
+
+.flowers{
+    left: 60px;
+}
+
+.vase{
+    left: 25px;
+}
+
+.btn-product {
+    padding: 15px 10px;
+    color: rgb(0, 0, 0);
+    display: block;
+    opacity: 0.8;
+    background-color: rgb(241, 241, 241);
+    font-size: 15px;
+    font-family: 游明朝;
+    text-decoration: none;
+    margin-bottom: 10px;
+    cursor: default;
+  }
+
+.btn-product:hover{
+    color: rgb(212, 80, 113);
+    transition: all 0.3s;
+    background-color: rgb(248, 238, 241);
+}
+
+
+/*introduction*/
+.introduction-wrapper{
+    height: 450px;
+    background-color: rgb(241, 241, 241);
+    padding:70px 0 30px 0;
+}
+
+.features{
+    margin: 0 auto;
+    width: 1100px;
+    padding-left: 50px;
+}
+
+.feature{
+    width: 33%;
+    float: left;
+}
+
+.feature h2{
+    font-size: 27px;
+    padding-bottom: 10px;
+    font-family: 游明朝;
+}
+
+.txt-contents{
+    width: 90%;
+    margin-top:10px;
+    font-size:16px;
+    text-align: justify;
+}
+
+.item-texts{
+    float: left;
+}
+
+.ceremony{
+    width: 1050px;
+    margin-top: 60px;
+    float: left;
+}
+
+.ceremony h1{
+    float: left;
+    font-size: 30px;
+    font-family: 游明朝;
+}
+
+.ceremony p{
+    clear:left;
+    padding-top:10px ;
+}
+
+
+/*media-wrapper*/
+.media-wrapper{
+    background-color: rgb(253, 253, 254);
+    height: 300px;
+}
+
+.media-title{
+    font-size: 40px;
+    padding: 130px 0 0 250px;
+    float: left;
+    font-family: 游明朝;
+}
+
+.media-img{
+    float: right;
+    margin:50px 80px 0 0;
+}
+
+.media-container{
+    padding: 50px 100px;
+}
+
+/*magazine-wrapper*/
+
+.magazine-wrapper{
+    height: 400px;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding:70px 0 30px 0;
+}
+
+.magazine-link{
+    cursor: default;
+}
+
+.magazine-title h1{
+    margin: 5px;
+}
+
+.article{
+    padding-top: 30px;
+    padding-left: 30px;
+    margin: auto;
+    width: 1010px;
+}
+
+.date{
+    padding-bottom: 3px;
+}
+
+.article h2{
+    font-size: 25px;
+    font-family: 游明朝;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.magazine-texts:hover{
+    color: rgb(212, 80, 113);
+    transition: all 0.3s;
+    background-color: rgb(248, 238, 241);
+}
+
+.article img{
+    width: 400px;
+    float: left;
+}
+
+.magazine-texts{
+    width: 550px;
+    float:left;
+    margin-left: 50px;
+    text-align: justify;
+    color: black;
+}
+
+.view_more{
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+    padding: 15px 40px;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    background-color: rgb(170, 170, 170);
+    font-size: 20px;
+    font-family: 游明朝;
+    text-decoration: none;
+  }
+  
+  .view_more:hover {
+    opacity: 0.8;
+    transition:  0.3s;
+  }
+
+/*footer*/
+footer{
+    background-color: rgb(170, 170, 170);
+    height: 350px;
+}
+
+.footer-left{
+    width:60%;
+    float: left;
+}
+
+.footer-logo{
+    font-family:Arial;
+    font-size: 45px;
+    padding: 80px 0 0 ;
+    letter-spacing: 10px;
+}
+
+.footer-menu{
+    padding-top: 50px;
+}
+
+.footer-menu li{
+    float: left;
+    margin-right:40px;
+    font-size: 14px;
+}
+
+.footer-right{
+    width: 40%;
+    float: right;
+}
+
+.footer-right-container{
+    float: right;
+}
+
+.sns-menu{
+    margin-top: 140px;
+}
+
+.sns{
+    float: right;
+    padding-left: 20px;
+}
+
+.credit{
+    margin-top:5px;
+    float: right;
+}
+
+.credit p{
+    font-size: 12px;
+    font-family: 游明朝;
+}
+
+/*scroll-btn*/
+#scroll-to-top-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    height: 80px;
+    width: 80px;
+    border: none;
+    outline: none;
+    transition-duration: 0.5s;
+    background: none;
+}
+
